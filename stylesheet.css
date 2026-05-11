@@ -489,6 +489,23 @@ h3 {
   font-size: 0.92rem;
 }
 
+.repo-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: -4px 0 14px;
+}
+
+.repo-badges a {
+  display: inline-flex;
+  border-bottom: 0;
+}
+
+.repo-badges img {
+  display: block;
+  height: 20px;
+}
+
 .tools-section {
   padding-bottom: 48px;
 }
